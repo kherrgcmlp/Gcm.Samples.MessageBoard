@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{6E5A1D10
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gcm.Samples.MessageBoard.WebApp", "src\Gcm.Samples.MessageBoard.WebApp\Gcm.Samples.MessageBoard.WebApp.csproj", "{01305288-9123-455D-A7B8-52C919ECC12C}"
 EndProject
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "Gcm.Samples.MessageBoard.AzureResourceGroup", "src\Gcm.Samples.MessageBoard.AzureResourceGroup\Gcm.Samples.MessageBoard.AzureResourceGroup.deployproj", "{D0E0E094-9A9A-4794-A3C3-834D54E3BCDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gcm.Samples.MessageBoard.WebJob", "src\Gcm.Samples.MessageBoard.WebJob\Gcm.Samples.MessageBoard.WebJob.csproj", "{5328E06A-AB8E-49D3-A053-81846EC9DF87}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,11 +23,21 @@ Global
 		{01305288-9123-455D-A7B8-52C919ECC12C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01305288-9123-455D-A7B8-52C919ECC12C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01305288-9123-455D-A7B8-52C919ECC12C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0E0E094-9A9A-4794-A3C3-834D54E3BCDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0E0E094-9A9A-4794-A3C3-834D54E3BCDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0E0E094-9A9A-4794-A3C3-834D54E3BCDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0E0E094-9A9A-4794-A3C3-834D54E3BCDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5328E06A-AB8E-49D3-A053-81846EC9DF87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5328E06A-AB8E-49D3-A053-81846EC9DF87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5328E06A-AB8E-49D3-A053-81846EC9DF87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5328E06A-AB8E-49D3-A053-81846EC9DF87}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{01305288-9123-455D-A7B8-52C919ECC12C} = {B1206EDF-F06D-4005-A9D7-F89DBB3BA1FC}
+		{D0E0E094-9A9A-4794-A3C3-834D54E3BCDB} = {B1206EDF-F06D-4005-A9D7-F89DBB3BA1FC}
+		{5328E06A-AB8E-49D3-A053-81846EC9DF87} = {B1206EDF-F06D-4005-A9D7-F89DBB3BA1FC}
 	EndGlobalSection
 EndGlobal
