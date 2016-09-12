@@ -3,10 +3,13 @@
     ViewBag.Title = "Index";
 }
 <div>
-    <a href="@Url.Action("Post", "Messages")">Post Message</a>
     <br />
-    <br />
-    <label>Messages: @Model.Messages.Length</label>
+    <div>
+        <div class="pull-right">
+            <a href="@Url.Action("Post", "Messages")">Post Message</a>
+        </div>
+        <label>Messages: @Model.Messages.Length</label>
+    </div>
     <ul class="list-group">
         @foreach (var message in Model.Messages)
         {
