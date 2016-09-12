@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B1206EDF-F06D-4005-A9D7-F89DBB3BA1FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{6E5A1D10-5043-4418-8A8B-E3F63E8C4A94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gcm.Samples.MessageBoard.WebApp", "src\Gcm.Samples.MessageBoard.WebApp\Gcm.Samples.MessageBoard.WebApp.csproj", "{01305288-9123-455D-A7B8-52C919ECC12C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01305288-9123-455D-A7B8-52C919ECC12C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01305288-9123-455D-A7B8-52C919ECC12C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01305288-9123-455D-A7B8-52C919ECC12C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01305288-9123-455D-A7B8-52C919ECC12C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{01305288-9123-455D-A7B8-52C919ECC12C} = {B1206EDF-F06D-4005-A9D7-F89DBB3BA1FC}
+	EndGlobalSection
+EndGlobal
