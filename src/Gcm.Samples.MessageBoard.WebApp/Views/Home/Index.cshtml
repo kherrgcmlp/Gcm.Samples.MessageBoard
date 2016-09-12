@@ -1,7 +1,18 @@
-﻿
+﻿@model Gcm.Samples.MessageBoard.WebApp.Models.HomeIndexViewModel
 @{
     ViewBag.Title = "Index";
 }
-
-<h2>Hello Message Board</h2>
-
+<div>
+    <a href="@Url.Action("Post", "Messages")">Post Message</a>
+    <br />
+    <br />
+    <label>Messages: @Model.Messages.Length</label>
+    <ul class="list-group">
+        @foreach (var message in Model.Messages)
+        {
+            <li class="list-group-item">
+                @message.Text
+            </li>
+        }
+    </ul>
+</div>
